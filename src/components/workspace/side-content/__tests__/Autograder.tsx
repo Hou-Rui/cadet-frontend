@@ -1,7 +1,7 @@
 import { mount, shallow } from 'enzyme';
 import * as React from 'react';
 
-import { ErrorSeverity, ErrorType, SourceError } from 'js-slang/dist/types';
+import { ErrorSeverity, ErrorType, SourceError } from 'js-slang/types';
 import {
   AutogradingResult,
   ITestcase,

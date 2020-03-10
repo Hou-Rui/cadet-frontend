@@ -1,6 +1,6 @@
 import { Card, Elevation, H6 } from '@blueprintjs/core';
 import { IconNames } from '@blueprintjs/icons';
-// import { stringify } from 'js-slang/dist/utils/stringify';
+// import { stringify } from 'js-slang/utils/stringify';
 import * as React from 'react';
 import { IAssessment, IProgrammingQuestion, ITestcase } from '../../assessment/assessmentShape';
 import { controlButton } from '../../commons';

@@ -1,7 +1,7 @@
 import { Card, Classes, Elevation, Pre } from '@blueprintjs/core';
 import { parseError } from 'js-slang';
-import { stringify } from 'js-slang/dist/utils/stringify';
-import { SourceError } from 'js-slang/dist/types';
+import { stringify } from 'js-slang/utils/stringify';
+import { SourceError } from 'js-slang/types';
 import * as React from 'react';
 import { ITestcase, TestcaseTypes } from '../../assessment/assessmentShape';
 import CanvasOutput from '../CanvasOutput';

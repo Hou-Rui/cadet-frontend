@@ -1,4 +1,4 @@
-import { SourceError } from 'js-slang/dist/types';
+import { SourceError } from 'js-slang/types';
 
 /*
  * Used to display information regarding an assessment in the UI.

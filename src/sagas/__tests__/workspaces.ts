@@ -1,12 +1,12 @@
 // TODO: Fix this test!!!
 
 import { Context, IOptions, Result, resume, runInContext } from 'js-slang';
-import { InterruptedError } from 'js-slang/dist/errors/errors';
-import { ErrorSeverity, ErrorType, Finished, SourceError } from 'js-slang/dist/types';
+import { InterruptedError } from 'js-slang/errors/errors';
+import { ErrorSeverity, ErrorType, Finished, SourceError } from 'js-slang/types';
 import { expectSaga } from 'redux-saga-test-plan';
 import { call } from 'redux-saga/effects';
 
-import createContext from 'js-slang/dist/createContext';
+import createContext from 'js-slang/createContext';
 import * as actions from '../../actions';
 import * as actionTypes from '../../actions/actionTypes';
 import { WorkspaceLocation, WorkspaceLocations } from '../../actions/workspaces';

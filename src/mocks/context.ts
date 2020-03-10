@@ -1,9 +1,9 @@
 import { parse } from 'acorn';
 import { FunctionExpression, Node } from 'estree';
-import Closure from 'js-slang/dist/interpreter/closure';
-import createContext from 'js-slang/dist/createContext';
-import { Context, Environment } from 'js-slang/dist/types';
-import { TypeError } from 'js-slang/dist/utils/rttc';
+import Closure from 'js-slang/interpreter/closure';
+import createContext from 'js-slang/createContext';
+import { Context, Environment } from 'js-slang/types';
+import { TypeError } from 'js-slang/utils/rttc';
 
 export function mockContext(chapter = 1): Context {
   return createContext(chapter);

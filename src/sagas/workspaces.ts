@@ -1,6 +1,6 @@
 import { Context, interrupt, resume, runInContext } from 'js-slang';
-import { InterruptedError } from 'js-slang/dist/errors/errors';
-import { manualToggleDebugger } from 'js-slang/dist/stdlib/inspector';
+import { InterruptedError } from 'js-slang/errors/errors';
+import { manualToggleDebugger } from 'js-slang/stdlib/inspector';
 import { random } from 'lodash';
 import { SagaIterator } from 'redux-saga';
 import { call, delay, put, race, select, take, takeEvery } from 'redux-saga/effects';
