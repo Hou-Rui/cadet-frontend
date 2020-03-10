@@ -1,6 +1,6 @@
 import { parse } from 'acorn';
 import { FunctionExpression, Node } from 'estree';
-import Closure from 'js-slang/dist/closure';
+import Closure from 'js-slang/dist/interpreter/closure';
 import createContext from 'js-slang/dist/createContext';
 import { Context, Environment } from 'js-slang/dist/types';
 import { TypeError } from 'js-slang/dist/utils/rttc';

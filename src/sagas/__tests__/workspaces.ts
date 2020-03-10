@@ -1,5 +1,5 @@
 import { Context, IOptions, Result, resume, runInContext } from 'js-slang';
-import { InterruptedError } from 'js-slang/dist/interpreter-errors';
+import { InterruptedError } from 'js-slang/dist/errors/errors';
 import { ErrorSeverity, ErrorType, Finished, SourceError } from 'js-slang/dist/types';
 import { expectSaga } from 'redux-saga-test-plan';
 import { call } from 'redux-saga/effects';
